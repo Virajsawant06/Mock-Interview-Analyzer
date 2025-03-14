@@ -1,0 +1,464 @@
+"GET / HTTP/1.1" 500 59
+"GET /favicon.ico HTTP/1.1" 500 59
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\backend\core\views.py", line 46, in get
+    return render(request, 'core/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/index.html
+"GET / HTTP/1.1" 500 91051
+Internal Server Error: /interview/
+Traceback (most recent call last):
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\backend\core\views.py", line 16, in get
+    return render(request, 'core/interview.html', {'questions': questions})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Mock Interview Anal\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/interview.html
+"GET /interview/ HTTP/1.1" 500 91807
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 58
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 36
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 530
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
+Internal Server Error: /api/emotion/
+"POST /api/emotion/ HTTP/1.1" 500 56
