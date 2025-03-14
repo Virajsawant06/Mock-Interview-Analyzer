@@ -1,0 +1,236 @@
+.interview-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.interview-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.interview-header h2 {
+    font-size: 28px;
+    color: #2d3748;
+    margin-bottom: 8px;
+}
+
+.interview-header p {
+    color: #718096;
+    margin: 0;
+}
+
+.interview-content {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .interview-content {
+        flex-direction: column;
+    }
+}
+
+.webcam-section, .question-section {
+    flex: 1;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.webcam-section:hover, .question-section:hover {
+    transform: translateY(-5px);
+}
+
+.section-header {
+    padding: 16px 20px;
+    background-color: #4f46e5;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.section-content {
+    padding: 20px;
+}
+
+.webcam-container {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.emotion-display {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.emotion-label {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 5px;
+}
+
+.emotion-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4f46e5;
+}
+
+.question-card {
+    background-color: #f1f5f9;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.question-number {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #4f46e5;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.question-text {
+    font-size: 18px;
+    color: #2d3748;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.question-input {
+    margin-top: 20px;
+}
+
+.answer-input {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition: border-color 0.2s ease;
+}
+
+.answer-input:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.button-group {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #4f46e5;
+    color: white;
+    flex: 1;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #e2e8f0;
+    color: #4a5568;
+}
+
+.btn-secondary:hover {
+    background-color: #cbd5e1;
+}
+
+.progress-bar {
+    height: 6px;
+    background-color: #e2e8f0;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #4f46e5;
+    transition: width 0.3s ease;
+}
+
+.interview-complete {
+    text-align: center;
+    padding: 40px;
+}
+
+.complete-icon {
+    font-size: 48px;
+    color: #4f46e5;
+    margin-bottom: 16px;
+}
+
+.complete-heading {
+    font-size: 24px;
+    color: #2d3748;
+    margin-bottom: 12px;
+}
+
+.complete-message {
+    color: #718096;
+    margin-bottom: 24px;
+}
+
+.blink-recording {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.recording-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ef4444;
+    border-radius: 50%;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+}
