@@ -1,4 +1,4 @@
-# Mock Interview Analyzer (Django Version)
+# Mock Interview Analyzer 
 
 ## Project Overview
 
